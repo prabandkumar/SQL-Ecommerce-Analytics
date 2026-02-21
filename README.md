@@ -12,14 +12,18 @@ Analyzed transactional e-commerce data using SQL to understand customer behavior
 ## Analysis Performed
 - Customers with and without orders  
 - Repeat customers  
+- Revenue per customer  
+- Customer ranking by total spend  
 - Total and average order value  
 - Product-wise sales and revenue  
-- Order distribution across customers  
+- Top selling products  
+- Monthly revenue trend  
 
 ## Key Insights
 - Not all registered customers place orders  
-- A few products contribute most of the revenue  
-- Repeat customers generate higher total spend  
+- Repeat customers contribute higher total revenue  
+- A small set of products drives most sales  
+- Revenue trends vary across months  
 
 
 ## Tech Stack
@@ -28,6 +32,5 @@ Analyzed transactional e-commerce data using SQL to understand customer behavior
 ## Usage
 1. Run `schema.sql`
 2. Load `data.sql`
-3. Execute queries from `queries.sql`
-
-
+3. Execute `queries.sql` for core analysis
+4. Execute `queriesAdvanced.sql` for advanced analysis
